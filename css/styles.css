@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background-color:black;}
+#wrapper{width: 1000px; background-color:#FFF; margin:0 auto;}
+
+#header{ background:url(../images/header_bg.png) repeat-x; height:253px; }
+
+#logo{background:url(../images/logo.png); height:163px; width:216px; float:right; margin-right:16px; margin-top:84px;}
+
+#slinks{ padding:200px 0 0 40px;} 
+
+#menu{background:url(../images/menu.png) no-repeat; width:1000px ; height:103px; }
+
+/*menu styles start*/
+
+#navbar{ float:right;}
+
+#navbar ul {float:right;}
+
+#navbar ul li {float:right; line-height:70px; padding:0 5px ; margin-right:16px;}
+
+#navbar ul li a {color: #595958; text-decoration:none; font-family:Tahoma, Geneva, sans-serif; font-size:15px; font-weight: bold;}
+
+#navbar ul li:first-child a{color:#b34d0f; font-weight:bold;}
+
+#navbar ul li:hover a {color:#b34d0f;}
+
+/*menu styles end */
+
+#search{direction:rtl; float:left; margin-left:40px; line-height:77px;1}
+
+#search input[type=text]{ width:183px; height:38px; padding-right:10px; border:2px solid #d8dfe9 ; font-family:Tahoma, Geneva, sans-serif; font-size:18px; color:#c8c6c6;  } 
+
+#search input[type=submit]{ background:url(../images/search-buten.png) no-repeat; width:73px; height:38px; line-height:43px; border:0;}
+
+#content{width:1000px; clear:both;}
+
+#rightbar{width:208px; margin:0 16px; float:right;}
+
+#rightmenu{direction:rtl; background:url(../images/right-bar.png) no-repeat; height:346px; padding-right:25px;}
+#rightmenu h1{color: #595958; font-size:20px; text-align:center; padding-top:15px; margin-bottom:20px; margin-right:-25px;}
+
+#rightmenu ul li { list-style-image: url(../images/row.png);}
+#rightmenu ul li a { text-decoration:none; font-family:Tahoma, Geneva, sans-serif; font-size:16px; color: #595958; line-height:130%; }
+
+#rightmenu ul li:hover a {color:#b34d0f;}
+
+.right-ads{ text-align:center; margin:10px auto;}
+
+.right-ads img { width:176px; height:299px;}
+
+.right-ads h2 {font-family:Tahoma, Geneva, sans-serif; color:#F00; }
+
+.right-ads h3 {font-family:Tahoma, Geneva, sans-serif; color:#595958;}
+
+.right-ads a { text-decoration:none; color:#00F; font-family:Tahoma, Geneva, sans-serif;}
+
+
+
+
+
+
+#left content{ width:770px; float:left;}
+#uper-left-content{text-align:left;}
+.uper-ads{ float:right; text-align:center; margin:10px 0 0 31px;}
+
+.uper-ads img { width:121px; height:188px;}
+
+.uper-ads h2 {font-family:Tahoma, Geneva, sans-serif; color:#F00; }
+
+.uper-ads h3 {font-family:Tahoma, Geneva, sans-serif; color:#595958;}
+
+.uper-ads a { text-decoration:none; color:#00F; font-family:Tahoma, Geneva, sans-serif;}
+
+
+
+
+
+
+#head-left {
+  background: url(../images/cheep-_line.png) no-repeat;
+  width: 735px; height:36px;
+  text-align: right;
+  font-family: Tahoma, Geneva, sans-serif; line-height:100%; color:white; margin-left:20px; padding-top:20px; clear:both; position:absolute; margin:500px auto; right: 240px; direction:rtl; 
+ 
+}
+
+#head-left h1 {margin-right:10px;}
+
+#lower-left-conten-body{ width:735px; float:right; margin:70px auto;}
+.lower-book{width:329px; height:135px; float:right; color:#595958; line-height:150%; padding:16px;}
+.lower-book:hover{background: #FFC; width:330px; padding:16px; height:135px; border-radius:7px;}
+.lower-book img{ float:right; margin-left:7px;}
+.lower-book h2{font-family:Tahoma, Geneva, sans-serif; font-size:15px; direction:rtl;}
+.lower-book a {text-decoration:none; color:#00F; font-family:Tahoma, Geneva, sans-serif; float:left;}
+.lower-book a:hover{ color: #F00;}
+.lower-book h2 span {color:#F00;}
+
+ 
+
+
+  
+#footer{width:1000px; height:50px; clear:both; text-align:center; line-height:200%;}
+#footer hr{height:2px; background-color:#b34d0f; border:none;}
+#footer a{text-decoration:none; color:#595958; font-size:14px;}
+#footer a:hover{color:#b34d0f;} 
+#footer a span{color: #903;}
